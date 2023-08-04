@@ -104,3 +104,38 @@ print("Hola, Mundo!")
 ```
 
 Estos son solo algunos ejemplos básicos de cómo utilizar Markdown en GitHub. Existen muchas más opciones y características disponibles, como tablas, citas, líneas horizontales, entre otros. Para obtener más información sobre el uso de Markdown en GitHub, se puede consultar la guía oficial de GitHub sobre dominio de Markdown.
+
+Existe un truco que puedes implementar muy fácilmente basado en selectores de atributo CSS. Te explico.
+
+1.- En el markdown comienzas colocando una imagen normal. Solo que le pones al final de la URL de la imagen una "señal" que indique que la quieres alinear.
+
+![Texto alternativo](https://picsum.photos/400/300#alignleft)
+Fíjate que al final de la URL de la imagen hemos colocado #alignleft. Esa finalización en la URL de la imagen, al tratarse de una almohadilla (gato, numeral o como le quieras llamar al caracter "#") no afecta a la URL donde se trata de obtener la imagen en el servidor.
+
+2.- Luego usas un selector de atributo con el valor "$". Estos selectores de atruibuto permiten darle estilos a elementos cuyos atributos casen con determinados valores. El caracter "$" en el nombre del atributo dice a CSS que buscas atributos cutos valores que acaben por determinadas cadenas.
+
+Como tus imagenes que quieres alinear (a la izquierda por ejemplo) todas acabarán en "#alignleft", vamos a buscar justamente valores de atributos src de las imágenes que acaben de esa forma.
+
+El CSS que te sale será algo como esto:
+
+img[src$='#alignleft'] {
+	float: left;
+  margin: 1rem;
+}
+Como ves, el selector de atributo "src$" indica que buscas imágenes que tengan al final del atributo src el valor '#alignleft'.
+
+Con eso conseguirás que las imágenes se alineen a la izquierda. Puedes hacer diversos selectores de atributo con este mismo patrón de funcionamiento para hacer imágenes alineadas a la derecha, centradas y todo lo que necesites.
+
+3.- Cómo asignar el CSS personalizado a tu sitio Hugo
+
+Ya luego depende del tema de Hugo que hayas instalado cómo le vas a colocar el CSS personalizado para que se alineen las imágenes.
+
+Lo típico sería que el tema de Hugo tenga un mecanismo para agregarle archivos de CSS con tu propio código que redefinan los estilos del tema. Es cuestión de leer el Readme.
+
+El tema "Tale" que vemos nosotros en el manual de Hugo necesita que le indiques el nombre del archivo CSS que quieres colocar en el tema dentro de la configuración del sitio.
+
+En el archivo hugo.toml colocas:
+
+[Params]
+css = ["mi-css.css"]
+Luego creas el archivo CSS en el directorio static, que sería la ruta static/mi-css.css. Pero vamos que este tercer punto ya depende mucho del tema y por supuesto si el tema es tuyo propio no deberías tener problema para insertarle el CSS personalizado necesario para alinear las imágenes.
