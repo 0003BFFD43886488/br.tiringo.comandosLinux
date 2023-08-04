@@ -141,4 +141,98 @@ En el archivo hugo.toml colocas:
 
 [Params]
 css = ["mi-css.css"]
-Luego creas el archivo CSS en el directorio static, que sería la ruta static/mi-css.css. Pero vamos que este tercer punto ya depende mucho del tema y por supuesto si el tema es tuyo propio no deberías tener problema para insertarle el CSS personalizado necesario para alinear las imágenes.
+Luego creas el archivo CSS en el directorio static, que sería la ruta static/mi-css.css. Pero vamos que este tercer punto ya depende mucho del tema y por supuesto si el tema es tuyo propio no deberías tener problema para insertarle el [CSS personalizado](https://developer.mozilla.org/es/play?id=gy4GQrKOQKZAGSdP0T1v1XFN9zl3UTp9ciCHpud5n18xqhmcnRu3LWHdyYj%2BvEZW0nizB7eQ9zE43YYM)
+necesario para alinear las imágenes.
+
+```html
+<div>
+  <div class="uno">CLI:</div>
+  <div class="dos">T-Power: Info. <span class="cinco">Artículo: Guía de Markdown en Github</span></div>
+  <input class="tres" />
+  <textarea class="cuatro"> gapi.load("gapi.iframes:gapi.iframes.style.b</textarea>
+</div>
+
+```
+
+```css
+.uno {
+  color: white;
+  background-color: brown;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.dos {
+  color: white;
+  background-color: black;
+  margin: 10px;
+  width: 150px;
+  height: 70px;
+  display: inline-block;
+}
+.tres {
+  color: white;
+  background-color: brown;
+  margin: 10px;
+  width: 75px;
+}
+.cuatro {
+  color: white;
+  background-color: brown;
+  margin: 10px;
+  width: 100px;
+}
+
+.cinco {
+  background-color: brown;
+}
+
+:root {
+  --main-bg-color: brown;
+}
+
+.uno {
+  color: white;
+  background-color: var(--main-bg-color);
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.dos {
+  color: white;
+  background-color: black;
+  margin: 10px;
+  width: 150px;
+  height: 70px;
+  display: inline-block;
+}
+.tres {
+  color: white;
+  background-color: var(--main-bg-color);
+  margin: 10px;
+  width: 75px;
+}
+.cuatro {
+  color: white;
+  background-color: var(--main-bg-color);
+  margin: 10px;
+  width: 100px;
+}
+
+.cinco {
+  background-color: var(--main-bg-color);
+}
+
+```
+
+```js
+class CSS { summoner
+  constructor(params) { 
+    
+  }chatOn 
+}
+```
