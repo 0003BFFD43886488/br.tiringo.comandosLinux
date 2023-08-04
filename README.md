@@ -1,4 +1,4 @@
-![20230730_134526](https://github.com/notebook-t/notebook-t/assets/140947135/5171d43f-94d2-47f1-8f8b-8cd8d85adaef)
+![src$=20230730_134526](https://github.com/notebook-t/notebook-t/assets/140947135/5171d43f-94d2-47f1-8f8b-8cd8d85adaef#alignleft)
 El archivo `readme.md` es generalmente utilizado en los proyectos de software para proporcionar información relevante sobre el proyecto. 
 Contiene información sobre cómo instalar, configurar y utilizar el software, así como cualquier otro detalle importante que los usuarios o desarrolladores deben conocer. 
 Además, el archivo `readme.md` puede incluir información sobre el propósito del proyecto, los requisitos del sistema, las dependencias, los pasos de instalación, la estructura de archivos y directorios, y cualquier otra información relevante que los desarrolladores o usuarios necesiten saber.
