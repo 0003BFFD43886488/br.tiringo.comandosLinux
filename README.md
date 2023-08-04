@@ -106,6 +106,7 @@ print("Hola, Mundo!")
 Estos son solo algunos ejemplos básicos de cómo utilizar Markdown en GitHub. Existen muchas más opciones y características disponibles, como tablas, citas, líneas horizontales, entre otros. Para obtener más información sobre el uso de Markdown en GitHub, se puede consultar la guía oficial de GitHub sobre dominio de Markdown.
 
 [Hugo](https://desarrolloweb.com/manuales/manual-de-hugo)
+
 Existe un truco que puedes implementar muy fácilmente basado en selectores de atributo CSS. Te explico.
 
 1.- En el markdown comienzas colocando una imagen normal. Solo que le pones al final de la URL de la imagen una "señal" que indique que la quieres alinear.
