@@ -105,6 +105,7 @@ print("Hola, Mundo!")
 
 Estos son solo algunos ejemplos básicos de cómo utilizar Markdown en GitHub. Existen muchas más opciones y características disponibles, como tablas, citas, líneas horizontales, entre otros. Para obtener más información sobre el uso de Markdown en GitHub, se puede consultar la guía oficial de GitHub sobre dominio de Markdown.
 
+[Hugo](https://desarrolloweb.com/manuales/manual-de-hugo)
 Existe un truco que puedes implementar muy fácilmente basado en selectores de atributo CSS. Te explico.
 
 1.- En el markdown comienzas colocando una imagen normal. Solo que le pones al final de la URL de la imagen una "señal" que indique que la quieres alinear.
@@ -122,6 +123,7 @@ img[src$='#alignleft'] {
 	float: left;
   margin: 1rem;
 }
+
 Como ves, el selector de atributo "src$" indica que buscas imágenes que tengan al final del atributo src el valor '#alignleft'.
 
 Con eso conseguirás que las imágenes se alineen a la izquierda. Puedes hacer diversos selectores de atributo con este mismo patrón de funcionamiento para hacer imágenes alineadas a la derecha, centradas y todo lo que necesites.
