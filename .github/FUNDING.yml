@@ -1,0 +1,13 @@
+r# Se admiten plataformas modelo de financiación
+
+github                      :                      # Reemplazar con hasta 4 nombres de usuario habilitados para los patrocinadores GitHub por ejemplo., [user1, user2]
+Patreon                         :                       # Reemplazar con hasta 4 nombres de usuario habilitados para los patrocinadores GitHub por ejemplo., [user1, user2]
+open_collective                           :                         # Reemplazar con un único nombre de usuario Colectivo Abierto
+ko_fi                           :                         # Reemplazar con un solo nombre de usuario Ko-fi
+tidelift                          :                        # Reemplazar con un único nombre de la plataforma de Tidelift/nombre del paquete por ejemplo, npm/babel
+comunidad_bridge                         :                       Patreon
+liberapay                       :                      # Reemplazar con un solo nombre de usuario de Liberapay
+caza de la emisión                       :                      # Reemplazar con un solo nombre de usuario de IssueHunt
+otechie                     :                     # Reemplazar con un solo nombre de usuario de Otechie
+lfx_crowdfunding                     :                     # Reemplazar con un único nombre del proyecto de LFX Crowdfunding por ejemplo, fundición en la nube
+Personalizado                     :                     # Reemplazar con hasta 4 URL de patrocinio personalizadas por ejemplo, ['link1', 'link2']
