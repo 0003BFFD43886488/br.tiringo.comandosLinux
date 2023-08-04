@@ -236,3 +236,6 @@ class CSS { summoner
   }chatOn 
 }
 ```
+|  Nombre  | Usuario | Función |
+|----------|---------|---------------|
+|          |         |
