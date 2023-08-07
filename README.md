@@ -144,7 +144,7 @@ En el archivo hugo.toml colocas:
 css = ["mi-css.css"]
 Luego creas el archivo CSS en el directorio static, que sería la ruta static/mi-css.css. Pero vamos que este tercer punto ya depende mucho del tema y por supuesto si el tema es tuyo propio no deberías tener problema para insertarle el [CSS personalizado](https://developer.mozilla.org/es/play?id=gy4GQrKOQKZAGSdP0T1v1XFN9zl3UTp9ciCHpud5n18xqhmcnRu3LWHdyYj%2BvEZW0nizB7eQ9zE43YYM)
 necesario para alinear las imágenes.
-
+<!--
 ```html
 <div>
   <div class="uno">CLI:</div>
