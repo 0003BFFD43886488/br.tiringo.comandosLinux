@@ -112,6 +112,7 @@ Existe un truco que puedes implementar muy fácilmente basado en selectores de a
 1.- En el markdown comienzas colocando una imagen normal. Solo que le pones al final de la URL de la imagen una "señal" que indique que la quieres alinear.
 
 ![Texto alternativo](https://picsum.photos/400/300#alignleft)
+
 Fíjate que al final de la URL de la imagen hemos colocado #alignleft. Esa finalización en la URL de la imagen, al tratarse de una almohadilla (gato, numeral o como le quieras llamar al caracter "#") no afecta a la URL donde se trata de obtener la imagen en el servidor.
 
 2.- Luego usas un selector de atributo con el valor "$". Estos selectores de atruibuto permiten darle estilos a elementos cuyos atributos casen con determinados valores. El caracter "$" en el nombre del atributo dice a CSS que buscas atributos cutos valores que acaben por determinadas cadenas.
